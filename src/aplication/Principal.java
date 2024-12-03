@@ -18,8 +18,8 @@ public class Principal {
         clinica.adicionarFuncionario(vet2);
 
         // Criando animais
-        Animal animal1 = new Animal("Bobby", "Cachorro", 5);
-        Animal animal2 = new Animal("Mingau", "Gato", 2);
+        Animal animal1 = new Animal("Bobby", "Cachorro", 5, "Pitbull");
+        Animal animal2 = new Animal("Mingau", "Gato", 2, "Siamês");
 
         // Adicionando animais na clínica
         clinica.adicionarAnimal(animal1);
